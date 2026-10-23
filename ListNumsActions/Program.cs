@@ -22,14 +22,54 @@
                     case "print":
                         Console.WriteLine(string.Join(" ", nums));
                         break;
+
                     case "contains":
-                        
-                        //TODO
+                        int searchNum = int.Parse(cmd[1]);
+                        if (nums.Contains(searchNum))
+                        {
+                            Console.WriteLine("Yes");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No");
+                        }
                         break;
 
+                    case "add":
+                        int num1 = int.Parse(cmd[1]);
+                        int num2 = int.Parse(cmd[2]);
+                        nums.Add(num1 + num2);
+                        break;
 
-                    //TO DO
-                    default:
+                    case "del":
+                        int valueToRemove = int.Parse(cmd[1]);
+                        nums.Remove(valueToRemove);
+                        break;
+
+                    case "remove":
+                        int indexToRemove = int.Parse(cmd[1]);
+                        nums.RemoveAt(indexToRemove);
+                        break;
+
+                    case "countl":
+                        int target = int.Parse(cmd[1]);
+                        int greaterCount = nums.Count(x => x > target);
+                        Console.WriteLine(greaterCount);
+                        break;
+
+                    case "countOdds":
+                        int oddCount = nums.Count(x => x % 2 != 0);
+                        Console.WriteLine($"CountOdds={oddCount}");
+                        break;
+
+                    case "countEvens":
+                        int evenCount = nums.Count(x => x % 2 == 0);
+                        Console.WriteLine($"CountEvens={evenCount}");
+                        break;
+
+                    case "sumAll":
+                        int sum = nums.Sum();
+                        Console.WriteLine(sum);
                         break;
                 }
             }
