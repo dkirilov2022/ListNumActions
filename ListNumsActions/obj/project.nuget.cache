@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rBgJf07HU8Y=",
+  "dgSpecHash": "rKP32y4PuaI=",
   "success": true,
-  "projectFilePath": "D:\\2025-2026\\12В УП СИ\\Brabches-ListManipulation\\ListNumsActions2025\\ListNumsActions\\ListNumsActions.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/flow/School/ListNumActions/ListNumsActions/ListNumsActions.csproj",
+  "expectedPackageFiles": [
+    "/home/flow/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.32/microsoft.aspnetcore.app.ref.8.0.32.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -23,8 +23,20 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "contains":
-                        
-                        //TODO
+                        if (nums.Contains(int.Parse(cmd[1])) == true)
+                        {
+                            Console.WriteLine("YES");
+                        }
+                        else
+                        {
+                            Console.WriteLine("NO");
+                        }
+                        break;
+                    case "remove":
+                        nums.RemoveAt(int.Parse(cmd[1]));
+                        break;
+                    case "del":
+                        nums.Remove(int.Parse(cmd[1]));
                         break;
 
 
