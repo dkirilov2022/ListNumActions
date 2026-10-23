@@ -4,5 +4,15 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\Documents\\Jess 12b\\ListNewActions\\ListNumActions\\ListNumsActions\\ListNumsActions.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\Student\\Documents\\Jess 12b\\ListNewActions\\ListNumActions\\ListNumsActions\\obj\\project.nuget.cache : '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\Student\\Documents\\Jess 12b\\ListNewActions\\ListNumActions\\ListNumsActions\\ListNumsActions.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Student\\Documents\\Jess 12b\\ListNewActions\\ListNumActions\\ListNumsActions\\ListNumsActions.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

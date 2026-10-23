@@ -24,6 +24,7 @@
                         break;
 
                     case "contains":
+
                         int searchNum = int.Parse(cmd[1]);
                         if (nums.Contains(searchNum))
                         {
@@ -33,7 +34,17 @@
                         {
                             Console.WriteLine("No");
                         }
+
+                        if (nums.Contains(int.Parse(cmd[1])) == true)
+                        {
+                            Console.WriteLine("YES");
+                        }
+                        else
+                        {
+                            Console.WriteLine("NO");
+                        }
                         break;
+
 
                     case "add":
                         int num1 = int.Parse(cmd[1]);

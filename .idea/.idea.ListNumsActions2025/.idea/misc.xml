@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DotNetCoreSettings">
+    <option name="DotNetCoreSdkPath" value="/usr/share/dotnet" />
+    <option name="DotNetHostPath" value="/usr/share/dotnet/dotnet" />
+    <option name="DotNetCliExePath" value="/usr/share/dotnet/dotnet" />
+  </component>
+  <component name="MSBuildSettings">
+    <option name="MSBuildPath" value="/usr/share/dotnet/sdk/8.0.131/MSBuild.dll" />
+    <option name="DotNetCliToolset" value="true" />
+    <option name="UseDotNetCliToolset" value="true" />
+    <option name="UseMonoForMsBuild" value="false" />
+    <option name="UseBundledMSBuild" value="false" />
+    <option name="MonoRuntimeForMsBuild" value="false" />
+  </component>
+</project>
